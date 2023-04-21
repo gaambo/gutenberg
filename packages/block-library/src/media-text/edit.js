@@ -315,7 +315,10 @@ function MediaTextEdit( { attributes, isSelected, setAttributes, clientId } ) {
 
 	const innerBlocksProps = useInnerBlocksProps(
 		{ className: 'wp-block-media-text__content' },
-		{ template: TEMPLATE }
+		{
+			template: TEMPLATE,
+			allowedBlocks: [ 'core/paragraph', 'core/heading' ],
+		}
 	);
 
 	return (

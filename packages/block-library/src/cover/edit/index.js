@@ -93,7 +93,6 @@ function CoverEdit( {
 		minHeightUnit,
 		alt,
 		allowedBlocks,
-		templateLock,
 		tagName: TagName = 'div',
 	} = attributes;
 
@@ -205,7 +204,7 @@ function CoverEdit( {
 			template: ! hasInnerBlocks ? innerBlocksTemplate : undefined,
 			templateInsertUpdatesSelection: true,
 			allowedBlocks,
-			templateLock,
+			templateLock: 'all',
 		}
 	);
 

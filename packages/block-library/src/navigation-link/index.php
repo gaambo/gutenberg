@@ -1,6 +1,6 @@
 <?php
 /**
- * Server-side rendering of the `core/navigation-link` block.
+ * Server-side registering and rendering of the `core/navigation-link` block.
  *
  * @package WordPress
  */

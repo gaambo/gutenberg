@@ -1,6 +1,6 @@
 <?php
 /**
- * Navigation block rendering tests.
+ * Navigation block post type/taxonomies variations tests.
  *
  * @package WordPress
  * @subpackage Blocks
